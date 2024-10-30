@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shojumaru&display=swap');
+
+:root{
+	
+	--color-general: #999;
+	--color-titulos: #29373c;
+	--fondo-gris: #f9faf2;
+	--fondo-footer: #f49f28;
+	--titulo-halloween: #FFAC2C;
+	
+}
+
+header{
+	
+	position: absolute;
+	width: 100%;
+	padding-top: 25px;
+}
+body{
+	
+	font-family: "Nanum Pen Script", sans-serif;
+	color: var(--color-general);
+}
+
+h1{
+	font-family: "Shojumaru", sans-serif;
+}
+
+#HeroTitle{
+	
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	padding: 10% 10%;
+	
+}
+
+#HeroTitle h1{
+	
+	text-align: center;
+	color: var(--titulo-halloween);
+	font-size: 80px;
+	margin-bottom: 150px;
+}
+
+#HeroTitle p{
+	
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+}
+
+#freature{
+  background-color: var(--fondo-gris);
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.Abut{
+	text-align: center;
+	font-size: 60px;
+}
+.About{
+	text-align: center;
+	
+}
+#pomp{
+	text-align: center;
+}
+
+.halloweenamarillo{
+	color: var(--fondo-footer);
+}
+
+.btnshopnow{
+	
+	background-color: #FEC107;
+	padding: 10px 15px;
+	text-align: center;
+	color: #000;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-left: 45%;
+}
+
+.btnshopnow:hover{
+	
+	background-color: #FEC107;
+	color: #000;
+}
+
+.footer{
+	padding: 10px 650px;
+	text-align: center;
+	background-color: var(--titulo-halloween);
+}
